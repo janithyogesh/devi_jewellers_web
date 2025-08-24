@@ -1,212 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devi Jewellers - Exquisite Jewelry Collection</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devi Jewellers Embilipitiya</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    />
 </head>
-<body>
+  <body>
     <header>
-        <nav class="container">
-            <a href="#" class="logo">
-                <img src="images/logo.png" alt="Devi Jewellers Logo" class="logo-img">
-                Devi Jewellers
-            </a>
-            <ul class="nav-links">
-                <li><a href="#" onclick="showSection('home')" class="active">Home</a></li>
-                <li><a href="#" onclick="showSection('products')">Collections</a></li>
-                <li><a href="#" onclick="showSection('about')">Heritage</a></li>
-                <li><a href="#" onclick="showSection('contact')">Connect</a></li>
-            </ul>
-            <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
-        </nav>
+      <nav class="container">
+        <a href="#" class="logo">
+          <img
+            src="images/logo.png"
+            alt="Devi Jewellers Logo"
+            class="logo-img"
+          />
+          Devi Jewellers
+        </a>
+        <ul class="nav-links">
+          <li>
+            <a href="#" onclick="showSection('home')" class="active">Home</a>
+          </li>
+          <li><a href="#" onclick="showSection('products')">Collections</a></li>
+          <li><a href="#" onclick="showSection('about')">Heritage</a></li>
+          <li><a href="#" onclick="showSection('contact')">Connect</a></li>
+        </ul>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          &#9776;
+        </button>
+      </nav>
     </header>
 
     <main>
-        <section id="home" class="section active">
-            <div class="hero">
-                <div class="container">
-                    <div class="hero-content">
-                        <h1>Timeless Luxury<br>Crafted to Perfection</h1>
-                        <p>Where heritage meets innovation in the finest jewelry collections</p>
-                        <a href="#" onclick="showSection('products')" class="cta-button">Explore Masterpieces</a>
-                    </div>
+      <section id="home" class="section active">
+        <div class="hero">
+          <div class="container">
+            <div class="hero-content">
+              <h1>Timeless Luxury<br />Crafted to Perfection</h1>
+              <p>
+                Where heritage meets innovation in the finest jewelry
+                collections
+              </p>
+              <a href="#" onclick="showSection('products')" class="cta-button"
+                >Explore Masterpieces</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="features">
+          <div class="container">
+            <div class="section-title">
+              <h2>The Devi Distinction</h2>
+              <p>Uncompromising excellence in every facet of our craft</p>
+            </div>
+            <div class="features-grid">
+              <div class="feature-card">
+                <img
+                  src="images/diamond-icon.png"
+                  alt="Diamond Icon"
+                  class="feature-icon-img"
+                />
+                <h3>Exceptional Gems</h3>
+                <p>
+                  Hand-selected, rare gemstones and diamonds with superior cut,
+                  clarity, and brilliance. Each stone tells a story of
+                  perfection, certified by leading gemological institutes
+                  worldwide.
+                </p>
+              </div>
+              <div class="feature-card">
+                <img
+                  src="images/artisan-icon.png"
+                  alt="Artisan Icon"
+                  class="feature-icon-img"
+                />
+                <h3>Master Artisanship</h3>
+                <p>
+                  Since 1994, our master artisans have been combining
+                  time-honored techniques with cutting-edge precision to create
+                  heirloom-quality pieces.
+                </p>
+              </div>
+              <div class="feature-card">
+                <img
+                  src="images/bespoke-icon.png"
+                  alt="Bespoke Icon"
+                  class="feature-icon-img"
+                />
+                <h3>Bespoke Creations</h3>
+                <p>
+                  Exclusive custom design services where your vision becomes
+                  reality. From concept sketches to final masterpiece, we craft
+                  your dreams.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="section products-section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Luxury Collections</h2>
+            <p>Each piece represents the pinnacle of jewelry artistry</p>
+          </div>
+          <div class="products-grid">
+            <div class="product-card">
+              <img
+                src="images/ring.jpg"
+                alt="Eternal Diamond Ring"
+                class="product-image-photo"
+              />
+              <div class="product-info">
+                <h3>Eternal Rings</h3>
+                <p>
+                  Exquisite solitaires and designer settings featuring the
+                  world's finest gems and diamonds
+                </p>
+                <!-- <div class="price">From $2,850</div> -->
+              </div>
+            </div>
+            <div class="product-card">
+              <img
+                src="images/necklace.jpg"
+                alt="Heritage Gold Necklace"
+                class="product-image-photo"
+              />
+              <div class="product-info">
+                <h3>Heritage Gold Necklaces</h3>
+                <p>
+                  Timeless designs in 18K and 22K gold, inspired by Sri Lankan
+                  traditions
+                </p>
+                <!-- <div class="price">From $1,650</div> -->
+              </div>
+            </div>
+            <div class="product-card">
+              <img
+                src="images/earrings.jpg"
+                alt="Designer Earrings"
+                class="product-image-photo"
+              />
+              <div class="product-info">
+                <h3>Designer Earrings</h3>
+                <p>
+                  Statement pieces featuring rare gemstones and innovative
+                  contemporary designs
+                </p>
+                <!-- <div class="price">From $890</div> -->
+              </div>
+            </div>
+            <div class="product-card">
+              <img
+                src="images/bracelet.jpg"
+                alt="Luxury Bracelet"
+                class="product-image-photo"
+              />
+              <div class="product-info">
+                <h3>Luxury Bracelets</h3>
+                <p>
+                  Crafted in various kinds of gold, our timeless collection for
+                  men and women is a testament to quality and artistry.
+                </p>
+                <!-- <div class="price">From $1,250</div> -->
+              </div>
+            </div>
+            <div class="product-card">
+              <img
+                src="images/gemstones.jpg"
+                alt="Precious Gemstones"
+                class="product-image-photo"
+              />
+              <div class="product-info">
+                <h3>Precious Gemstones</h3>
+                <p>
+                  Rare emeralds, rubies, and sapphires in museum-quality
+                  settings
+                </p>
+                <!-- <div class="price">From $3,200</div> -->
+              </div>
+            </div>
+            <div class="product-card">
+              <img
+                src="images/bridal.jpg"
+                alt="Bridal Couture"
+                class="product-image-photo"
+              />
+              <div class="product-info">
+                <h3>Bridal Couture</h3>
+                <p>
+                  Complete wedding jewelry collections for your most special
+                  moments
+                </p>
+                <!-- <div class="price">From $8,500</div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="container">
+          <div class="about-content">
+            <h2>A Legacy of Excellence</h2>
+            <p>
+              Since 1994, Devi Jewellers has been a cherished part of the
+              Embilipitiya community, located right in the heart of the town.
+              Our journey began with a passion for creating not just jewelry,
+              but timeless treasures that celebrate life's most precious
+              moments.
+            </p>
+            <p>
+              Our master craftsmen are dedicated to blending the rich heritage
+              of traditional Sri Lankan jewelry with the elegance of modern
+              design. We believe in honoring time-honored techniques while
+              embracing innovation. By combining the time-honored skill of
+              handcrafting with state-of-the-art technology, we create pieces of
+              exceptional beauty and quality.
+            </p>
+            <p>
+              Every piece in our collection, from intricate wedding sets to
+              contemporary everyday wear, is meticulously designed and crafted.
+              We are committed to using only the highest quality materials,
+              ensuring that each item we create is a true work of art that will
+              last for generations.
+            </p>
+            <p>
+              At Devi Jewellers, we take pride in our craft and are passionate
+              about helping you find or create the perfect piece to tell your
+              unique story. We invite you to visit our store and discover the
+              beauty and tradition that define us.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Connect With Excellence</h2>
+            <p>Begin your journey to owning a masterpiece</p>
+          </div>
+          <div class="contact-content">
+            <div class="contact-form">
+              <form>
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" name="name" required />
                 </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Inquiry Type</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Custom Design, Collection Viewing, etc."
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Your Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Tell us about your vision..."
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="cta-button" style="width: 100%">
+                  Send Private Message
+                </button>
+              </form>
             </div>
 
-            <div class="features">
-                <div class="container">
-                    <div class="section-title">
-                        <h2>The Devi Distinction</h2>
-                        <p>Uncompromising excellence in every facet of our craft</p>
-                    </div>
-                    <div class="features-grid">
-                        <div class="feature-card">
-                            <img src="images/diamond-icon.png" alt="Diamond Icon" class="feature-icon-img">
-                            <h3>Exceptional Diamonds</h3>
-                            <p>Hand-selected diamonds with superior cut, clarity, and brilliance. Each stone tells a story of perfection, certified by leading gemological institutes worldwide.</p>
-                        </div>
-                        <div class="feature-card">
-                            <img src="images/artisan-icon.png" alt="Artisan Icon" class="feature-icon-img">
-                            <h3>Master Artisanship</h3>
-                            <p>Three generations of jewelry mastery, combining time-honored techniques with cutting-edge precision to create heirloom-quality pieces.</p>
-                        </div>
-                        <div class="feature-card">
-                            <img src="images/bespoke-icon.png" alt="Bespoke Icon" class="feature-icon-img">
-                            <h3>Bespoke Creations</h3>
-                            <p>Exclusive custom design services where your vision becomes reality. From concept sketches to final masterpiece, we craft your dreams.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="contact-info">
+              <div class="contact-item contact-map">
+                <p><strong>Address:</strong></p>
+                <a
+                  href="https://maps.app.goo.gl/BpcRLp7LJG1PtaBD7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="map-placeholder">
+                    <img
+                      src="images/map-of-location.jpg"
+                      alt="Map of Devi Jewellers location"
+                      class="map-image"
+                    />
+                    <div class="map-overlay">View on Google Maps</div>
+                  </div>
+                  <p>No. 66, Main Street, Embilipitiya, Sri Lanka</p>
+                </a>
+              </div>
+              <div class="contact-item">
+                <p><strong>Hotline:</strong> +94 70 210 3000</p>
+              </div>
+              <div class="contact-item">
+                <p><strong>Landline:</strong> +94 47 22 64 200</p>
+              </div>
+              <div class="contact-item">
+                <p><strong>Email:</strong> devijewellers66@gmail.com</p>
+              </div>
+              <div class="contact-item">
+                <p>
+                  <strong>Business Hours:</strong> Open Daily, 8:00 AM – 6:00 PM
+                </p>
+              </div>
             </div>
-        </section>
-
-        <section id="products" class="section products-section">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Luxury Collections</h2>
-                    <p>Each piece represents the pinnacle of jewelry artistry</p>
-                </div>
-                <div class="products-grid">
-                    <div class="product-card">
-                        <img src="images/ring.jpg" alt="Eternal Diamond Ring" class="product-image-photo">
-                        <div class="product-info">
-                            <h3>Eternal Diamond Rings</h3>
-                            <p>Exquisite solitaires and designer settings featuring the world's finest diamonds</p>
-                            <div class="price">From $2,850</div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="images/necklace.jpg" alt="Heritage Gold Necklace" class="product-image-photo">
-                        <div class="product-info">
-                            <h3>Heritage Gold Necklaces</h3>
-                            <p>Timeless designs in 18K and 22K gold, inspired by royal traditions</p>
-                            <div class="price">From $1,650</div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="images/earrings.jpg" alt="Designer Earrings" class="product-image-photo">
-                        <div class="product-info">
-                            <h3>Designer Earrings</h3>
-                            <p>Statement pieces featuring rare gemstones and innovative contemporary designs</p>
-                            <div class="price">From $890</div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="images/bracelet.jpg" alt="Luxury Bracelet" class="product-image-photo">
-                        <div class="product-info">
-                            <h3>Luxury Bracelets</h3>
-                            <p>Tennis bracelets, cuffs, and bangles in platinum, gold, and rare metals</p>
-                            <div class="price">From $1,250</div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="images/gemstones.jpg" alt="Precious Gemstones" class="product-image-photo">
-                        <div class="product-info">
-                            <h3>Precious Gemstones</h3>
-                            <p>Rare emeralds, rubies, and sapphires in museum-quality settings</p>
-                            <div class="price">From $3,200</div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <img src="images/bridal.jpg" alt="Bridal Couture" class="product-image-photo">
-                        <div class="product-info">
-                            <h3>Bridal Couture</h3>
-                            <p>Complete wedding jewelry collections for your most special moments</p>
-                            <div class="price">From $8,500</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="about" class="section about-section">
-            <div class="container">
-                <div class="about-content">
-                    <h2>A Legacy of Excellence</h2>
-                    <p>
-                        Since 1990, Devi Jewellers has been the epitome of luxury jewelry craftsmanship. 
-                        Our journey began with a vision to create not just jewelry, but legacy pieces that 
-                        transcend generations and celebrate life's most precious moments.
-                    </p>
-                    <p>
-                        Our master craftsmen combine traditional techniques passed down through generations 
-                        with state-of-the-art technology to create pieces of unparalleled beauty. Every diamond 
-                        is hand-selected, every setting meticulously crafted, and every detail perfected.
-                    </p>
-                    <p>
-                        From intimate engagement rings to grand statement pieces, from ancient-inspired 
-                        designs to contemporary masterworks, we create jewelry that speaks to the soul. 
-                        Our clientele spans royalty, celebrities, and discerning collectors worldwide.
-                    </p>
-                    <p>
-                        At Devi Jewellers, we don't just create jewelry – we craft dreams, celebrate love, 
-                        and preserve memories in the most beautiful forms imaginable.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="section contact-section">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Connect With Excellence</h2>
-                    <p>Begin your journey to owning a masterpiece</p>
-                </div>
-                <div class="contact-content">
-                    <div class="contact-form">
-                        <form>
-                            <div class="form-group">
-                                <label for="name">Full Name</label>
-                                <input type="text" id="name" name="name" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email Address</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone">
-                            </div>
-                            <div class="form-group">
-                                <label for="subject">Inquiry Type</label>
-                                <input type="text" id="subject" name="subject" placeholder="Custom Design, Collection Viewing, etc." required>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Your Message</label>
-                                <textarea id="message" name="message" rows="5" placeholder="Tell us about your vision..." required></textarea>
-                            </div>
-                            <button type="submit" class="cta-button" style="width: 100%;">Send Private Message</button>
-                        </form>
-                    </div>
-
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <span>📍</span> <strong>Flagship Atelier:</strong> 123 Diamond Row, Luxury District, Mumbai 400001
-                        </div>
-                        <div class="contact-item">
-                            <span>📞</span> <strong>Private Line:</strong> +91 (22) 6789-1234
-                        </div>
-                        <div class="contact-item">
-                            <span>✉️</span> <strong>Exclusive Email:</strong> concierge@devijewellers.com
-                        </div>
-                        <div class="contact-item">
-                            <span>🕒</span> <strong>Private Viewings:</strong> Mon-Sat: 10AM-8PM, Sun: By Appointment
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Devi Jewellers. All Rights Reserved. | Crafting Excellence Since 1990</p>
-        </div>
+      <div class="container">
+        <p>
+          &copy; 2025 Devi Jewellers. All Rights Reserved. | Crafting Excellence
+          Since 1994.
+        </p>
+      </div>
     </footer>
 
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>

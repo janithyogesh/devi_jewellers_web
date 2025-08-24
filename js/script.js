@@ -155,11 +155,12 @@ window.addEventListener('load', () => {
     `;
     
     loader.innerHTML = `
-        <div style="text-align: center; color: white;">
-            <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%); border-radius: 16px; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; animation: pulse 2s infinite;">💎</div>
-            <p style="font-family: 'Playfair Display', serif; font-size: 1.2rem; margin: 0;">Loading Excellence...</p>
-        </div>
-    `;
+    <div style="text-align: center; color: white;">
+        <img src="images/logo-loader.png" alt="Devi Jewellers Logo" style="width: 60px; height: 60px; margin: 0 auto 1rem; border-radius: 16px;">
+        <p style="font-family: 'Playfair Display', serif; font-size: 1.2rem; margin: 0;">Welcome to Devi Jewellers...</p>
+        <p style="font-family: 'Inter', sans-serif; font-size: 0.9rem; margin-top: 0.5rem; color: rgba(255, 255, 255, 0.8);">Loading your experience</p>
+    </div>
+`;
     
     document.body.prepend(loader);
     
