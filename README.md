@@ -1,26 +1,6 @@
-### README: Devi Jewellers Website
+### Devi Jewellers Website
 
 This is a single-page, modern, and mobile-responsive website for Devi Jewellers. The design uses a "glassmorphism" aesthetic with a clean, luxurious feel. The site is built with HTML, CSS, and JavaScript, with a focus on simplicity and performance.
-
-### Project Structure
-
-DeviJewellersWebsite/
-├── index.html          # The main HTML file for the website
-├── css/
-│   └── style.css       # The primary CSS file for styling
-├── js/
-│   └── script.js       # The JavaScript file for interactive features
-└── images/             # All image assets, including logos, products, and icons
-├── logo.png
-├── favicon.ico
-├── ring.jpg
-├── necklace.jpg
-├── earrings.jpg
-├── bracelet.jpg
-├── gemstones.jpg
-├── bridal.jpg
-└── ... (other images)
-
 
 ### Features
 
